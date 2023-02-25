@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "This is the Site Title"
+title                    : "Academic Website for Juan Pablo Barraza, PhD"
 title_separator          : "-"
 name                     : &name "This is where my name goes"
 description              : &description "This is my personal description"
