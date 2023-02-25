@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "academicpages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "Blah"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -8,45 +8,132 @@ redirect_from:
   - /about.html
 ---
 
-Personal Site
-[DSDKJ](url)
+Basic Description of moi
 
-
-A data-driven personal website
+Microbial Communities
 ======
-Like many other Jekyll-based GitHub Pages templates, academicpages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+I am interested in characterizing the impact of microbial communities on host damage during infection
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over -- just be sure to save the markdown files! Finally, you can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+EDUCATION
+Georgia Institute of Technology, Ph.D. in Biology
+University of Texas at Austin, Graduate student in Biochemistry University of Texas at Austin, B.S. in Biochemistry
+2017-2021 2014- 2017
+Spring
+2013 Minor in Computer Science
 
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this repository](https://github.com/academicpages/academicpages.github.io) by clicking the "fork" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
-
-Site-wide configuration
+Research Experience
 ------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+**Postdoctoral Research Fellow**
+Vanderbilt University Medical Center 2022-Present Vanderbilt Institute for Infection, Immunology and Inflammation.
+Co-Advisors: James Cassat & Eric Skaar
+• Develop tools for characterizing the spatial structure of the microbe-host environment during infection from multiple imaging sources
+• Use human derived intestinal organoids to study host-pathogen interactions during infection
+**Graduate Research Assistant**
+Georgia Institute of Technology, Department of Biology. 2017-2021 University of Texas at Austin, Department of Molecular Biosciences. 2014-2017 Advisor: Marvin Whiteley
+• Develop software tools to quantify the spatial structure of microbial communities of microscopy images
+• Establish novel model systems that mimic microbial physiology from in vivo conditions
+• Implement novel software tools to infer interactions between bacteria and host cells
+• This work resulted in 2 co-author PNAS publications and 1 first author publication with
+one more to be published this year.
+**Research Assistant**
+University of Texas at Austin, Department of Molecular Biosciences. 2013–2014 Advisor: Edward Marcotte
+• Assess effectiveness of current sample preparation methods for “shot-gun” proteomics in Mass Spectrometry and develop new methods with improved performance.
+• Study single-molecule analysis and its implementation in proteomics
+• Assist in experimental design in surface chemistry applications for biological compounds
+**Undergraduate Research Assistant**
+University of Texas at Austin, Department of Chemistry. Advisor: Jonathan Sessler
+• Investigate novel methods for radical induced polymerization
+• Synthesize anion selective compounds engineered to function as monomers
+• Employ several analytical techniques to identify synthesized compounds
+2010–2013
+ Cancer Prevention Research Institute of Texas, Austin Texas Summer 2011 & 2012
+CPRIT SURP Fellow/Undergraduate Researcher
+• Researched from primary literature methodology to synthesize assigned compounds
+• Performed multi-step synthesis, purification and identification of novel organic compounds derived from parent molecule Zingerone and investigated the in-vitro anticancer activity of synthesized compounds
+• Presented investigation results to program committee and undergraduate research forum
+UT El Paso, Department of Chemistry. Advisor: Juan Noveron Intern/Undergraduate Researcher
+• Pursued individual project on functionalization of carbon nanotubes
+• Implemented novel methods for the formation of carbon nanotubes-based
+Summer 2010
+ macromolecular compounds
 
-Create content & metadata
+Publications
 ------
-For site content, there is one markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+1. IbbersonCB*,BarrazaJP*,HolmesAL,CaoP,WhiteleyM.Precisespatialstructure impacts antimicrobial susceptibility of S. aureus in polymicrobial wound infections. PNAS 2022 *co-first author
+2. KolpenM,KraghKN,BarrazaJP,Faurholt-JepsenD,MadsenBL,EgelundGB, Vestergaard A, Ravn P, Mabuza Mathiesen IH, Gheorghe AG, Boëtius Hertz F, Qvist T, Whiteley M, Jensen PO, Bjarnsholt T. Bacterial biofilms predominate in both acute and chronic human lung infections. Thorax 2022.
+3. BarrazaJP,WhiteleyM.AP.aeruginosaantimicrobialaffectsthebiogeographybutnot fitness of S. aureus during co-culture. MBio 2021
+4. KimD,BarrazaJP,ArthurRA,HaraA,LewisK,LiuY,ScisciEL,HajishengallisE, Whiteley M, Koo H. Spatial mapping of polymicrobial communities reveals a precise biogeography associated with human dental caries. PNAS 2020
+5. DarchSE,SimoskaO,FitzpatrickM,BarrazaJP,StevensonKJ,BonnecazeRT,Shear JB, Whiteley M,. Spatial determinants of quorum signaling in a Pseudomonas aeruginosa infection model. PNAS 2018
 
-**Markdown generator**
-
-I have also created [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual markdown files that will be properly formatted for the academicpages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the markdown files, then commit and push them to the GitHub repository.
-
-How to edit your site's GitHub repository
+AWARDS
 ------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
+2021 Aegean International Conference on Oral Mucosal Immunity and Microbiome Trainee Travel Award
+2022 The Histochemical Society Travel Award
 
-Example: editing a markdown file for a talk
-![Editing a markdown file for a talk](/images/editing-talk.png)
-
-For more info
+ORAL PRESENTATIONS
 ------
-More info about configuring academicpages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+2021 “Characterizing the micron scale spatial structure of bacterial communities during infection”
+Aegean International Conference on Oral Mucosal Immunity and Microbiome,
+Kos, Greece
+2020 “Quantitative characterization of biogeography and metabolic rate in lung infections”
+Cystic Fibrosis Trust Annual Meeting, Remote 2019 “Rigor and transparency in Science”
+Emory K-Club, Atlanta, GA
+2019 “Spatial structure in model pathogenic bacterial communities”
+Center for Microbial Dynamics and Infection Seminar Series, Atlanta, GA 2018 “The impact of spatial organization on P. aeruginosa antagonism toward S. aureus”
+ASM Microbe, Atlanta, GA
+2018 “The impact of spatial structure in pathogenic bacterial communities”
+Georgia Tech BioSci Scientific Retreat, Helen, GA
+2013 “Novel functionalization of parent molecule zingerone for therapeutic effect against prostate cancer”
+CPRIT Fellowship Symposium, Austin, TX 
+
+POSTER PRESENTATIONS
+------
+2018 “The impact of spatial organization on P. aeruginosa antagonism toward S. aureus” ASM Microbe, Atlanta, GA
+2015 “Genetic determinants of P. aeruginosa in an in vitro Cystic Fibrosis model” Molecular Biosciences Retreat, University of Texas at Austin
+2013 “Functionalization of zingerone for0 therapeutic effects against prostate cancer” Undergraduate Research Forum, University of Texas at Austin
+
+SCIENTIFIC WORKSHOPS
+------
+2022 “Optical Microscopy & Imaging in the Biomedical Sciences” Marine Biological Laboratory, Woods Hole, MA
+
+LABORATORY & TECHNICAL SKILLS
+------
+• Extensive experience in microscopy techniques and quantitative image analysis
+• Molecular microbiology lab techniques (Aseptic technique, cloning, PCR)
+• Experience with abscess and chronic wound models of infection in mice
+• Algorithm development in R, MATLAB, Mathematica and 3D modeling with SolidWorks
+• Proficiency Java, Python, PHP, MySQL
+• 100% bilingual (English/Spanish); read, write and understand French
+• Nuclear Magnetic Resonance, Infrared & UV-Vis Spectroscopy and Mass Spectrometry
+• Controlled-atmosphere reactions
+• Gas Chromatography, High-Performance Liquid Chromatography, Column
+Chromatography
+
+SCIENTIFIC OUTREACH & LEADERSHIP ROLES
+------
+Vanderbilt Institute for Infection, Immunology, and Inflammation Postdoctoral Association,
+Board Member
+• Host visiting speakers for seminars
+• Organize professional and social events for Postdoctoral fellows Center for Microbial Dynamics and Infection Seminar Series, Organizer
+• Schedule remote talks
+• Select speakers from department submissions
+2022-Present 2019-2020
+
+Skype a scientist, Instructor
+• Give remote lecture on basic science and career
+• Worked with 3 different grade levels: 4th, 7th and 10th
+Georgia Tech Cycling, Road vice-president
+• Coordinate road closures and safety measures with city officials
+• Schedule and distribute work for volunteers
+Georgia Tech Salsa Club, Webmaster • Maintain site for the club
+Clubes de Ciencia Mexico, Instructor
+• Developed a week-long science program for High School students in Mexico
+• Organized and delivered day-long lectures
+• Designed and guided experiments based on lecture material
+2020 2019-2020 2017-2018
+2014
+2011-2013
+Chatoyant, Vice President
+• Organized community service events
+• Coordinated events including transportation, venue and catering • Manage annual
+budget
